@@ -1,0 +1,26 @@
+[参考1](https://reffect.co.jp/react/tanstack-query)
+[参考2](https://qiita.com/koffee0522/items/67deb39877c541bab440)
+
+$ npx prisma migrate dev
+
+# マイグレーションの語尾に`init`を付与する
+# `20210606142525_init`
+# $ prisma migrate dev --name init
+
+ % npx prisma db push
+
+# Prisma Studioの起動
+$ prisma studio
+
+# データベースをリセットしDBへ反映(本番では使用しない)
+$ prisma migrate reset
+
+# マイグレーションのステータスチェック
+$ prisma migrate status
+
+# マイグレーションの実行・DBへ反映
+$ prisma migrate deploy
+
+# 型情報の生成
+$ prisma generate
+
